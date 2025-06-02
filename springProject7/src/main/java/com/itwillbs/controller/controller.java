@@ -30,6 +30,9 @@ public class controller {
 		public void test6_home() {
 			
 		}
-	
+		@RequestMapping(value = "/test7", method = RequestMethod.GET)
+		public void test7_home() {
+			
+		}
 	
 }
