@@ -35,4 +35,8 @@ public class controller {
 			
 		}
 	
+		@RequestMapping(value = "/test8", method = RequestMethod.GET)
+		public void test8_home() {
+			
+		}
 }
