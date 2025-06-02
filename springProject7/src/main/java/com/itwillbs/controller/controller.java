@@ -16,6 +16,17 @@ public class controller {
 		public void test3() {
 			
 		}
+		
+		@RequestMapping(value = "/test4", method = RequestMethod.GET)
+		public void test4() {
+			
+		}
+
+		@RequestMapping(value = "/test5", method = RequestMethod.GET)
+		public void test5_home() {
+			
+		}
+		
 	
 	
 }
