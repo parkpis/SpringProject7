@@ -26,7 +26,10 @@ public class controller {
 		public void test5_home() {
 			
 		}
-		
+		@RequestMapping(value = "/test6", method = RequestMethod.GET)
+		public void test6_home() {
+			
+		}
 	
 	
 }
